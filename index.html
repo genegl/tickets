@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Ticketing front desk system</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>The ticketing system</h1>
+			<div class="jumbotron">
+				<h3>Add your request</h3>
+				<form id="InputForm">
+					<div class="form-group">
+						<label for="DesInput">Description</label>
+						<input type="text" class="form-control" id="DesInput" placeholder="Describe here">
+					</div>
+					<div class="form-group">
+						<label for="PriorityInput">Priority</label>
+						<select id="PriorityInput" class="form-control">
+							<option value="Low">Low</option>
+							<option value="Medium">Medium</option>
+							<option value="High">High</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="DesInput">Responsible:</label>
+						<input type="text" class="form-control" id="RespInput" placeholder="Describe here">
+					</div>
+					<button type="submit" class="btn btn-primary">Create Ticket</button>
+
+				</form>
+			</div>
+				<div class="col-lg-12">		# Bootstrap griding layout
+					<div id="listOfTickets"></div>
+				</div>
+		</div>
+		# ChanceJS library
+		<script src="http://chancejs.com/chance.min.js"></script>
+
+		# JQuery library
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		# Bootsrap library
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		# the JS code
+		<script type="text/javascript" src="main.js"></script>
+
+
+
+	</body>
+
+
+</html>
